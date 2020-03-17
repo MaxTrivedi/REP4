@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import math as mt
 import matplotlib.pyplot as plt
 import numpy as np
@@ -15,7 +16,7 @@ x=mt.pi/6
 placements = []
 
 #Initialise figure for plotting
-plt.figure(num=None, figsize=(5, 5), dpi=300, facecolor='w', edgecolor='k')
+plt.figure(num=None, figsize=(5, 5), dpi=175, facecolor='w', edgecolor='k')
 axes = plt.gca()
 axes.set_xlim([0,w])
 axes.set_ylim([0,l])
